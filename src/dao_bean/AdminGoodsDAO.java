@@ -158,7 +158,7 @@ public class AdminGoodsDAO {
 			
 			String sql = "update goods set goods_category=?, goods_name=?, goods_price=?, goods_color=?, "
 					 + " goods_amount=?, goods_size=?, goods_content=?, goods_best=? where goods_num=? ";
-			
+			   
 			pstmt = con.prepareStatement(sql);
 			pstmt.setString(1, agb.getGOODS_CATEGORY());
 			pstmt.setString(2, agb.getGOODS_NAME());
@@ -180,4 +180,15 @@ public class AdminGoodsDAO {
 	}
 	
 }
+
+
+
+
+
+
+
+
+
+
+
 
