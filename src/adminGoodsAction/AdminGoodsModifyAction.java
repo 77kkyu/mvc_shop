@@ -3,7 +3,8 @@ package adminGoodsAction;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import dao_bean.GoodsBean;
+import dao_bean.AdminGoodsDAO;
+import dao_bean.AdminGoodsBean;
 import memberAction.Action;
 import memberAction.ActionForward;
 
@@ -15,7 +16,7 @@ public class AdminGoodsModifyAction implements Action {
 		request.setCharacterEncoding("euc-kr");
 		ActionForward forward = new ActionForward();
 		AdminGoodsDAO agoodsdao = new AdminGoddsDAO();
-		GoodsBean agb = new GoodsBean();
+		AdminGoodsBean agb = new AdminGoodsBean();
 		
 		agb.setGOODS_NUM(Integer.parseInt(request.getParameter("goods_num")));
 		agb.setGOODS_CATEGORY(request.getParameter("goods_category"));

@@ -1,3 +1,6 @@
 /adminGoodsAction/
 /dao_bean/
-/memberAction/
+/goodsAction/
+/basketAction/
+/orderAction/
+/adminOrderAction/

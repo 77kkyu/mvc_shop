@@ -1,6 +1,6 @@
 package dao_bean;
 
-public class GoodsBean {
+public class AdminGoodsBean {
 	
 	private int GOODS_NUM;
 	private String GOODS_CATEGORY;

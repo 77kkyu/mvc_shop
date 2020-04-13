@@ -3,7 +3,8 @@ package adminGoodsAction;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import dao_bean.GoodsBean;
+import dao_bean.AdminGoodsDAO;
+import dao_bean.AdminGoodsBean;
 import memberAction.Action;
 import memberAction.ActionForward;
 
@@ -14,7 +15,7 @@ public class AdminGoodsModifyForm implements Action {
 		
 		ActionForward forward = new ActionForward();
 		AdminGoodsDAO agoodsdao = new AdminGoodsDAO();
-		GoodsBean agb = new GoodsBean();
+		AdminGoodsBean agb = new AdminGoodsBean();
 		
 		String num = request.getParameter("goods_num");
 		
