@@ -28,7 +28,7 @@
    
    <servlet>
 	<description></description>
-	<display-name>AdminGoodsFrontController</display-name>
+	<display-name>AdminGoodsFrontConㅇㅇtroller</display-name>
 	<servlet-name>AdminGoodsFrontController</servlet-name>
 	<servlet-class>goodsAction.AdminGoodsFrontController</servlet-class>
 </servlet>
