@@ -179,30 +179,5 @@ public class AdminGoodsDAO {
 		
 	}
 	
-	
-	
-	
-	
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
