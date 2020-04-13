@@ -21,23 +21,23 @@ public class MemberFrontController extends HttpServlet {
 		if(command.equals("/MemberLogin.me")) {
 			forward = new ActionForward();
 			forward.setRedirect(false);
-			forward.setPath("./member/member_login.jsp");
+			forward.setPath("/member/member_login.jsp");
 		} else if(command.equals("/MemberJoin.me")) {
 			forward = new ActionForward();
 			forward.setRedirect(false);
-			forward.setPath("./member/member_join.jsp");
+			forward.setPath("/member/member_join.jsp");
 		} else if(command.equals("/MemberFind.me")) {
 			forward = new ActionForward();
 			forward.setRedirect(false);
-			forward.setPath("./member/member_find.jsp");
+			forward.setPath("/member/member_find.jsp");
 		} else if(command.equals("/MemberOut.me")) {
 			forward = new ActionForward();
 			forward.setRedirect(false);
-			forward.setPath("./member/member_out.jsp");
+			forward.setPath("/member/member_out.jsp");
 		} else if(command.equals("/Zipcode.me")) {
 			forward = new ActionForward();
 			forward.setRedirect(false);
-			forward.setPath("./member/member_zipcode.jsp");
+			forward.setPath("/member/member_zipcode.jsp");
 		} else if(command.equals("/MemberLoginAction.me")) {
 			action = new MemberLoginAction();
 			try {
