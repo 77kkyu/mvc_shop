@@ -1,4 +1,4 @@
-package goodsAction;
+package adminGoodsAction;
 
 import java.io.IOException;
 

@@ -1,4 +1,4 @@
-package goodsAction;
+package adminGoodsAction;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;

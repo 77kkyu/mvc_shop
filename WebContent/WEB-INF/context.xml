@@ -6,7 +6,7 @@
 		username="ezen2"
 		password="1234"
 		driverClassName="oracle.jdbc.driver.OracleDriver"
-		factory="org.apache.tomcat.dbcp.dbcp.BasicDataSourceFactory"
+		factory="org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory"
 		url="jdbc:oracle:thin:@localhost:1521:orcl"
 		maxAction="500"
 		maxIdle="100"/>
