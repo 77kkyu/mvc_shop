@@ -44,6 +44,17 @@
 	<welcome-file>default.htm</welcome-file>
 	<welcome-file>default.jsp</welcome-file>
 </welcome-file-list>
+
+<servlet>
+	<description></description>
+	<display-name>BasketFrontController</display-name>
+	<servlet-name>BasketFrontController</servlet-name>
+	<servlet-class>basketAction.BasketFrontController</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>BasketFrontController</servlet-name>
+	<url-pattern>*.ba</url-pattern>
+</servlet-mapping>
 	
 <resource-ref>
 	<description>Connection</description>
