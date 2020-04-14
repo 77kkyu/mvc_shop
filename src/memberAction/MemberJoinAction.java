@@ -6,9 +6,6 @@ import java.sql.Timestamp;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import dao_bean.MemberBean;
-import dao_bean.MemberDAO;
-
 public class MemberJoinAction implements Action {//회원가입할때 쓰는 메서드
 
 	public ActionForward execute(HttpServletRequest request, HttpServletResponse response)

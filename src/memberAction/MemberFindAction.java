@@ -5,9 +5,6 @@ import java.io.PrintWriter;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import dao_bean.MemberBean;
-import dao_bean.MemberDAO;
-
 public class MemberFindAction implements Action{
 
 	public ActionForward execute(HttpServletRequest request, HttpServletResponse response) throws Exception{

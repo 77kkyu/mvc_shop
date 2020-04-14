@@ -3,8 +3,6 @@ package adminGoodsAction;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import dao_bean.AdminGoodsDAO;
-import dao_bean.AdminGoodsBean;
 import memberAction.Action;
 import memberAction.ActionForward;
 
@@ -15,7 +13,7 @@ public class AdminGoodsDeleteAction implements Action {
 		
 		ActionForward forward = new ActionForward();
 		AdminGoodsDAO agoodsdao = new AdminGoodsDAO();
-		AdminGoodsBean agb = new AdminGoodsBean();
+		GoodsBean agb = new GoodsBean();
 		
 		agb.setGOODS_NUM(Integer.parseInt(request.getParameter("goods_num")));
 		

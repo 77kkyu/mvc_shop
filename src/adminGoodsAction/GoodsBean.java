@@ -1,6 +1,6 @@
-package dao_bean;
+package adminGoodsAction;
 
-public class AdminGoodsBean {
+public class GoodsBean {
 	
 	private int GOODS_NUM;
 	private String GOODS_CATEGORY;

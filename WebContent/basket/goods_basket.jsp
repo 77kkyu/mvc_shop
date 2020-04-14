@@ -1,5 +1,5 @@
 <%@page import="dao_bean.GoodsBean"%>
-<%@page import="dao_bean.BasketBean"%>
+<%@page import="basketAction.BasketBean"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <%@ page import="java.util.*"%>

@@ -6,8 +6,6 @@ import java.util.List;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import dao_bean.MemberDAO;
-
 public class MemberZipcodeAction implements Action {
 
 	public ActionForward execute(HttpServletRequest request, HttpServletResponse responser) throws Exception {

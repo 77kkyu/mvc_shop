@@ -1,4 +1,4 @@
-package dao_bean;
+package orderAction;
 
 import java.util.Date;
 
