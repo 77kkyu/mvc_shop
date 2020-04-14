@@ -23,7 +23,7 @@ public class AdminGoodsDeleteAction implements Action {
 			forward.setRedirect(true);
 			forward.setPath("GoodsList.ag");
 		}
-		
+//		dd
 		return forward;
 	}
 
