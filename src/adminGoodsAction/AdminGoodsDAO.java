@@ -11,6 +11,8 @@ import javax.naming.Context;
 import javax.naming.InitialContext;
 import javax.sql.DataSource;
 
+import adminGoodsAction.GoodsBean;
+
 public class AdminGoodsDAO {
 
 	Connection con = null;
@@ -178,8 +180,6 @@ public class AdminGoodsDAO {
 		}
 		
 	}
-	
-	//ff
 	
 	
 	

@@ -14,6 +14,9 @@ import javax.naming.Context;
 import javax.naming.InitialContext;
 import javax.sql.DataSource;
 
+import basketAction.BasketBean;
+import goodsAction.GoodsBean;
+
 public class OrderDAO {
 	
 	Connection conn;

@@ -1,4 +1,3 @@
-<%@page import="dao_bean.GoodsBean"%>
 <%@page import="basketAction.BasketBean"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
