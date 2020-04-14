@@ -3,7 +3,7 @@
 <html>
 <head>
 <title>ºÓ«Œ∏Ù</title>
-<!-- dd -->
+
 <script>
 function check(){
 	var id = joinform.member_id.value;
