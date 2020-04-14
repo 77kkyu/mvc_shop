@@ -1,4 +1,4 @@
-<%@page import="dao_bean.AdminGoodsBean"%>
+<%@page import="adminGoodsAction.GoodsBean"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <%@ page import="java.util.*"%>
@@ -6,7 +6,7 @@
 <%
 	Collection list = (Collection) request.getAttribute("list");
 Object obj[] = list.toArray();
-AdminGoodsBean agb = null;
+GoodsBean agb = null;
 %>
 
 <!DOCTYPE html>
@@ -83,7 +83,7 @@ function goodsmodify(goods_num){
 			</tr>
 			<%
 				for (int i = 0; i < list.size(); i++) {
-						agb = (AdminGoodsBean) obj[i];
+							agb = (GoodsBean) obj[i];
 			%>
 			<tr>
 			<td>

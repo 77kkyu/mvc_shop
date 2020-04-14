@@ -1,4 +1,4 @@
-package dao_bean;
+package adminGoodsAction;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -10,6 +10,8 @@ import java.util.List;
 import javax.naming.Context;
 import javax.naming.InitialContext;
 import javax.sql.DataSource;
+
+import adminGoodsAction.GoodsBean;
 
 public class AdminGoodsDAO {
 
@@ -178,8 +180,6 @@ public class AdminGoodsDAO {
 		}
 		
 	}
-	
-	//ff
 	
 	
 	

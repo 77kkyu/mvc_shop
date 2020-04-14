@@ -3,8 +3,6 @@ package memberAction;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import dao_bean.MemberDAO;
-
 public class MemberIDCheckAction implements Action {
 
 	public ActionForward execute(HttpServletRequest request, HttpServletResponse response) throws Exception{

@@ -6,8 +6,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
-import dao_bean.MemberDAO;
-
 public class MemberLoginAction implements Action {//로그인 시도
 
 	public ActionForward execute(HttpServletRequest request, HttpServletResponse response)

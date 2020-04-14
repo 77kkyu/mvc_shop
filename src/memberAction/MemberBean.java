@@ -1,4 +1,4 @@
-package dao_bean;
+package memberAction;
 
 import java.sql.Timestamp;
 
